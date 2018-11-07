@@ -1,0 +1,228 @@
+body {
+     background-color: lightblue; 
+	 margin: 30px;
+   }
+ h1 {
+ 	 font-size: 4em;
+	 text-align: center;
+	 color: black;
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 50%;
+	 
+ }	  
+ h2 {
+	 font-size: 2em;
+ }
+ h4 {
+	 font-size: 2em;
+	 margin-top: 2%;
+	 margin-bottom: 1%; 
+ }
+ h5 {
+	 font-size:0.8em;
+	 margin-bottom: 2%;
+ }
+ p{
+	 font-family: verdana;
+	 font-size: 20px;
+	 background-color: beige;
+	 color: black;
+}
+li {
+	margin-left: 1em;
+	margin-top: 1em;
+}
+img {
+	width: 25%;
+	height: 20%;
+	display:block;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	margin-left: auto;
+	margin-right: auto;
+}
+table, th,td {
+	border-collapse: collapse;
+	border: 1px solid #000;
+	margin-left: auto;
+	margin-right: auto;
+}
+table {
+	width: 700px;
+	margin-bottom: 1%;
+}
+td {
+	width: 100px;
+	height: 100px;
+}
+th {
+	width: 100px;
+}
+ul {
+	list-style-type: squre;
+}
+ol {
+	list-style-type: square;
+	margin-bottom: 2%;
+}
+form {
+	margin-bottom: 2%;
+}
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	margin-bottom: 5%;
+}
+.menu li {
+	float: left;
+	display: inline;
+	margin-left: 9em;
+}
+.menu li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin: auto;
+}
+.menu li a:hover:not(.active) {
+	background-color: #111;
+}
+.menu li a:visited {
+	color: white;
+}
+.activate {
+	background-color: #4CAF50
+}
+
+.menu p {
+	font-size: 2em;
+}
+p{
+	margin-bottom: 1%;
+}
+.spanbild {
+	width: 70px;
+	height:70px
+}
+.formstyle {
+	border: 3px solid rgb(177,171,255);
+}
+input [type=text], input[ type=password] {
+	width: 100%;
+	padding: 12px 20px; 
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+
+}
+.container {
+	padding: 16px;
+}
+.cancle {
+	margin-left: 80%;
+}
+.minihead {
+	margin-left: 50%;
+	font-size: 1.5em;
+}
+.button-comment textarea {
+     width: 250px;
+     height: 80px;
+     background-color: #fff;
+     resize: none;
+}
+
+.button-comment button {
+	background-color: #282828;
+	cursor: pointer;
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	margin-bottom: 60px;
+}
+.comment-box {
+	width:250px;
+	padding: 20px;
+	margin-bottom: 4px;
+	background-color: #fff;
+	border: none;
+	position: relative;
+	font-weight: 100;
+}
+.comment-box p {
+	line-height: 16px;
+	color: #282828;
+	font-size: 14px; 
+	font-weight: 100;
+	}
+.edit-form {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}	
+.edit-form button {
+	width: 40px;
+	height: 20px;
+	color: #282828;
+	background-color: #fff;
+    opacity: 0.7;
+}	
+.edit-form button:hover {
+	opacity: 1;
+
+}	
+
+.delete-form {
+	position: absolute;
+	top: 0px;
+	right: 60px;
+}	
+.delete-form button {
+	width: 40px;
+	height: 20px;
+	color: #282828;
+	background-color: #fff;
+    opacity: 0.7;
+}	
+.delete-form button:hover {
+	opacity: 1;
+
+}	
+.signup-form {
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.signup-form input {
+	width: 90%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.signup-form button{
+	display: block;
+	width: 30%;
+	height: 40px;
+	border: none;
+	background-color: #0;
+	font-size: 16px;
+	color: #111;
+	cursor: pointer;
+}
+.signup-form button:hover {
+	background-color: #fff;
+	
+}
