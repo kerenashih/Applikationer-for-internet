@@ -1,10 +1,5 @@
 
 	<div class="menu">
-		<?php
-		if (isset($_SESSION['id'])){
-
-		}
-		?>
 
 	<ul>
 		<li class="menu"><a href="index.php">Home</a></li>
